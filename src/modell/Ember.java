@@ -4,7 +4,7 @@ package modell;
 
 public class Ember {
     private String nev, nyelv;
-    private int szdatum;
+    private int kor;
     private boolean szulinap;
 
 
@@ -16,17 +16,17 @@ public class Ember {
         return nyelv;
     }
 
-    public int getSzdatum() {
+    public int getKor() {
         if(szulinap==true){
-            szdatum++;
+            kor++;
         }
-        return szdatum;
+        return kor;
     }
 
     public Ember(String nev, String nyelv,int szdatum, boolean szulinap) {
         this.nev = nev;
         this.nyelv = nyelv;
-        this.szdatum = szdatum;
+        this.kor = szdatum;
         this.szulinap = szulinap;
     }
 

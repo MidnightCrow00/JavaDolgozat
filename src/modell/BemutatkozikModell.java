@@ -21,8 +21,8 @@ public class BemutatkozikModell {
         for(Ember ember:emberek){
             String a= ember.getNev();
             String f= ember.getNyelv();
-            int d= ember.getSzdatum();
-            s+="A nevem "+a+", ilyen nyelveken beszélek: "+f+",korom: "+d+"\n";
+            int d= ember.getKor();
+            s+="\n\tA nevem "+a+", ilyen nyelveken beszélek: "+f+"a korom: "+d+"\n\n";
             
         }
         return s;
