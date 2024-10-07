@@ -22,7 +22,7 @@ public class BemutatkozikModell {
             String a= ember.getNev();
             String f= ember.getNyelv();
             int d= ember.getKor();
-            s+="\n\tA nevem "+a+", ilyen nyelveken beszélek: "+f+"a korom: "+d+"\n\n";
+            s+="\n\tA nevem "+a+"; ilyen nyelveken beszélek: "+f+"; a korom: "+d+"\n\n";
             
         }
         return s;

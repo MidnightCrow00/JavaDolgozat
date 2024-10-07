@@ -1,18 +1,21 @@
 
 package modell;
 
+import java.util.Scanner;
+
 
 public class Ember {
     private String nev, nyelv;
     private int kor;
     private boolean szulinap;
-
+private static final Scanner sc = new Scanner(System.in);
 
     public String getNev() {
         return nev;
     }
 
     public String getNyelv() {
+        nyelv = sc.nextLine();
         return nyelv;
     }
 
@@ -40,4 +43,5 @@ public class Ember {
     public void szulinapNincs(){
         szulinap = false;
     }
+    
 }
